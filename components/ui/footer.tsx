@@ -20,8 +20,9 @@ export default function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">This is a introduction website about our startup. Please register yourself to get notification when the product will launch. Thank You!!!</div>
+              <div className="text-gray-400">This is our startup's landing page. Please register for early access if you like our idea. Thank you!!</div>
             </div>
+
 
             {/* 2nd, 3rd and 4th blocks */}
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
@@ -133,8 +134,6 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-
-            {/* Copyrights note */}
 
           </div>
 
