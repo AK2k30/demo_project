@@ -33,7 +33,7 @@ export default function SignUp() {
                     <span
                       className="h-6 flex items-center border-r border-white border-opacity-25 mr-4"
                       aria-hidden="true"
-                     />
+                    />
                     <span className="flex-auto pl-16 pr-8 -ml-16">
                       Sign up with Google
                     </span>
@@ -45,12 +45,12 @@ export default function SignUp() {
               <div
                 className="border-t border-gray-700 border-dotted grow mr-3"
                 aria-hidden="true"
-               />
+              />
               <div className="text-gray-400">Or, register with your email</div>
               <div
                 className="border-t border-gray-700 border-dotted grow ml-3"
                 aria-hidden="true"
-               />
+              />
             </div>
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
