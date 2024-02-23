@@ -1,17 +1,4 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
-
-  [analyzers.meta]
-  plugins = ["react"]
-  environment = [
-    "browser",
-    "nodejs"
-  ]
-
-[[transformers]]
-name = "prettier"
-
-[[transformers]]
-name = "standardjs"
+name = "docker"

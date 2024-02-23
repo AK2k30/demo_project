@@ -1,38 +1,38 @@
-import './css/style.css'
+import "./css/style.css";
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/react';
 import { Inter, Architects_Daughter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 import Header from '@/components/ui/header'
 
-
-
 const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap'
-})
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const architects_daughter = Architects_Daughter({
-  subsets: ['latin'],
-  variable: '--font-architects-daughter',
-  weight: '400',
-  display: 'swap'
-})
+  subsets: ["latin"],
+  variable: "--font-architects-daughter",
+  weight: "400",
+  display: "swap",
+});
 
 export const metadata = {
-  title: 'Giveway',
-  description: 'Giveway social.',
-}
+  title: "Giveway",
+  description: "Giveway social.",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
+      <body
+        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
+      >
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
@@ -41,6 +41,5 @@ export default function RootLayout({
         </div>
       </body>
     </html>
-  )
+  );
 }
- 
