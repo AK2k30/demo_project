@@ -25,12 +25,12 @@ export default function Header() {
                   href="/signin"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
+                  
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Sign up
+                <Link href="https://accounts.mygiveway.tech/sign-in?redirect_url=https%3A%2F%2Fgiveway.mygiveway.tech%2Fthankyou" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                  Join demo
                 </Link>
               </li>
             </ul>
